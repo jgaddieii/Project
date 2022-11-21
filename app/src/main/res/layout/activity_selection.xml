@@ -13,63 +13,63 @@
         android:layout_marginStart="39dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="39dp"
-        android:layout_marginBottom="116dp"
         android:text="Select a Game!"
         android:textAlignment="center"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/go_to_snake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="116dp"
         android:text="Snake"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="251dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginBottom="216dp"
-        android:text="Matching"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/go_to_brick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="39dp"
+        android:text="Brick Breaker"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/go_to_snake"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/go_to_tic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginBottom="178dp"
         android:text="Tic Tac Toe"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/go_to_snake" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/go_to_coin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="178dp"
         android:text="Coin Flip"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/go_to_tic"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_brick" />
 </androidx.constraintlayout.widget.ConstraintLayout>

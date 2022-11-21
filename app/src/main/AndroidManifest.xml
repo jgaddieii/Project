@@ -12,10 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
+        <activity android:name=".SnakeIntro"
+            android:exported="false" />
+        <activity android:name=".TicIntro"
+            android:exported="false" />
+        <activity
+            android:name=".TicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TicPlayerSetup"
+            android:exported="false" />
         <activity
             android:name=".Selection"
-            android:label = "Select Your Game"
-            android:exported="false">
+            android:exported="false"
+            android:label="Select Your Game">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

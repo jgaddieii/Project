@@ -143,10 +143,10 @@ public class TicBoard extends View {
                         paint);
     }
 
-    public void setUpGame(Button playAgain, Button home, TextView player, String[] names){
+    public void setUpGame(Button playAgain, Button home, TextView playerDisplay, String[] names){
         game.setPlayAgainBtn(playAgain);
         game.setHomeBtn(home);
-        game.setPlayerDisplay(player);
+        game.setPlayerDisplay(playerDisplay);
         game.setPlayerNames(names);
     }
 

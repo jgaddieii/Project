@@ -36,10 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
         android:layout_marginTop="125dp"
-        android:layout_marginBottom="378dp"
         android:text="Player 2:"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -52,7 +50,7 @@
         android:layout_marginEnd="55dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toEndOf="@+id/textView7"
@@ -67,7 +65,7 @@
         android:layout_marginEnd="55dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/playerName1" />

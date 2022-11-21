@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_coin_intro.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_matching_intro.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_selection.xml" value="0.11197916666666667" />
+        <entry key="app/src/main/res/layout/activity_snake_intro.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tic.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_tic_intro.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tic_player_setup.xml" value="0.2520833333333333" />
       </map>
     </option>
   </component>

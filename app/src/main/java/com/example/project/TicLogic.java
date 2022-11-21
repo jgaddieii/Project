@@ -6,11 +6,12 @@ import android.widget.TextView;
 
 public class TicLogic {
     private int[][] ticBoard;
+    private String[] playerNames = {"Player 1", "Player 2"};
     private Button playAgainBtn;
     private Button homeBtn;
     private TextView playerDisplay;
-    private String[] playerNames = {"Player 1", "Player 2"};
     private int player = 1;
+
     TicLogic(){
         ticBoard = new int[3][3];
         for(int row = 0; row < 3; row++){
@@ -67,7 +68,7 @@ public class TicLogic {
         if (isWinner){
             playAgainBtn.setVisibility(View.VISIBLE);
             homeBtn.setVisibility(View.VISIBLE);
-            playerDisplay.setText((playerNames[player - 1] + "Won!"));
+            playerDisplay.setText((playerNames[player - 1] + " Won!"));
             return true;
         }
         else if(boardFill == 9){
@@ -104,15 +105,14 @@ public class TicLogic {
     public void setPlayerNames(String[] playerNames) {
         this.playerNames = playerNames;
     }
-
-    public int[][] getTicBoard() {
-        return ticBoard;
-    }
-
     public void setPlayer(int player){
         this.player = player;
     }
     public int getPlayer(){
         return player;
     }
+    public int[][] getTicBoard() {
+        return ticBoard;
+    }
+
 }
