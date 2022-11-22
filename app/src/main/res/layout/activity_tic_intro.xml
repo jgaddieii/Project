@@ -52,6 +52,7 @@
         android:layout_marginStart="156dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="156dp"
+        android:onClick="backButtonClicked"
         android:text="Go Back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

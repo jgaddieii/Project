@@ -1,8 +1,10 @@
 package com.example.project;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
 
 public class BrickIntro extends AppCompatActivity {
 
@@ -10,5 +12,10 @@ public class BrickIntro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brick_intro);
+    }
+
+    public void backButtonClicked(View view){
+        Intent intent = new Intent(this, Selection.class);
+        startActivity(intent);
     }
 }

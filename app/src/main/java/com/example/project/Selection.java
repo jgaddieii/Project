@@ -31,5 +31,23 @@ public class Selection extends AppCompatActivity {
                 startActivity(ticIntro);
             }
         });
+
+        Button flipBtn = (Button) findViewById(R.id.go_to_coin);
+        flipBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent flipIntro = new Intent(Selection.this, FlipIntro.class);
+                startActivity(flipIntro);
+            }
+        });
+
+        Button brickBtn = (Button) findViewById(R.id.go_to_brick);
+        brickBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent flipIntro = new Intent(Selection.this, BrickIntro.class);
+                startActivity(flipIntro);
+            }
+        });
     }
 }

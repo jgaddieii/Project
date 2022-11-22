@@ -12,9 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
-        <activity android:name=".SnakeIntro"
+        <activity
+            android:name=".BrickIntro"
             android:exported="false" />
-        <activity android:name=".TicIntro"
+        <activity
+            android:name=".FlipIntro"
+            android:exported="false" />
+        <activity
+            android:name=".SnakeIntro"
+            android:exported="false" />
+        <activity
+            android:name=".TicIntro"
             android:exported="false" />
         <activity
             android:name=".TicActivity"

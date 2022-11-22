@@ -18,4 +18,9 @@ public class TicIntro extends AppCompatActivity {
         Intent intent = new Intent(this, TicPlayerSetup.class);
         startActivity(intent);
     }
+
+    public void backButtonClicked(View view){
+        Intent intent = new Intent(this, Selection.class);
+        startActivity(intent);
+    }
 }
