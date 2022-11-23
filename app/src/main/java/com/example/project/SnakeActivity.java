@@ -1,9 +1,11 @@
-package com.example.snakeforproject;
+package com.example.project;
 
+import android.content.Intent;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.Display;
 import android.app.Activity;
+import android.view.View;
 
 
 public class SnakeActivity extends Activity {
@@ -17,6 +19,7 @@ public class SnakeActivity extends Activity {
         snakeEngine = new SnakeEngine(this, size);
         setContentView(snakeEngine);
     }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -30,4 +33,3 @@ public class SnakeActivity extends Activity {
     }
 
 }
-

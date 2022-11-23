@@ -1,4 +1,4 @@
-package com.example.snakeforproject;
+package com.example.project;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -239,3 +239,4 @@ public class SnakeEngine extends SurfaceView implements Runnable {
         return true;
     }
 }
+

@@ -14,6 +14,11 @@ public class SnakeIntro extends AppCompatActivity {
         setContentView(R.layout.activity_snake_intro);
     }
 
+    public void playButtonClicked(View view){
+        Intent intent = new Intent(this, SnakeActivity.class);
+        startActivity(intent);
+    }
+
     public void backButtonClicked(View view){
         Intent intent = new Intent(this, Selection.class);
         startActivity(intent);
