@@ -147,10 +147,14 @@ public class TicBoard extends View {
         game.setPlayAgainBtn(playAgain);
         game.setHomeBtn(home);
         game.setPlayerDisplay(playerDisplay);
-        game.setPlayerNames(names);
+
+        if (!names[0].equals("") && !names[1].equals("")){
+            game.setPlayerNames(names);
+        }
     }
 
     public void playAgain(){
         game.playAgain();
+        winningLine = false;
     }
 }

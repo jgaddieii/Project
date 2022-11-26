@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class TicLogic {
     private int[][] ticBoard;
-    private String[] playerNames = {"Player 1", "Player 2"};
+    String[] playerNames = {"Player 1", "Player 2"};
     private Button playAgainBtn;
     private Button homeBtn;
     private TextView playerDisplay;
@@ -38,17 +38,19 @@ public class TicLogic {
         }
     }
 
-    public Boolean winner() {
+    public boolean winner() {
         boolean isWinner = false;
 
         for (int row = 0; row < 3; row++) {
             if (ticBoard[row][0] == ticBoard[row][1] && ticBoard[row][0] == ticBoard[row][2] && ticBoard[row][0] != 0) {
                 isWinner = true;
+                break;
             }
         }
         for (int col = 0; col < 3; col++) {
             if (ticBoard[0][col] == ticBoard[1][col] && ticBoard[2][col] == ticBoard[0][col] && ticBoard[0][col] != 0) {
                 isWinner = true;
+                break;
             }
         }
         if (ticBoard[0][0] == ticBoard[1][1] && ticBoard[0][0] == ticBoard[2][2] && ticBoard[0][0] != 0) {
@@ -88,6 +90,11 @@ public class TicLogic {
                 ticBoard[row][col] = 0;
             }
         }
+        player = 1;
+
+        playAgainBtn.setVisibility(View.GONE);
+        homeBtn.setVisibility(View.GONE);
+        playerDisplay.setText((playerNames[0] + "'s turn"));
     }
 
     public void setPlayAgainBtn(Button playAgainBtn){

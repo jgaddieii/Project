@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    tools:context=".FlipIntro">
+    android:layout_height="match_parent"
+    tools:context=".FlipIntro"
+    android:background="#FBE1B4">
 
     <TextView
         android:id="@+id/textView2"
@@ -14,7 +15,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:text="Coin Flip"
-        android:textSize="70sp"
+        android:textColor="#EB8304"
+        android:textSize="55sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,6 +44,7 @@
         android:layout_marginEnd="161dp"
         android:onClick="playButtonClicked"
         android:text="Play"
+        android:background="@drawable/orange_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -54,6 +58,7 @@
         android:layout_marginEnd="156dp"
         android:onClick="backButtonClicked"
         android:text="Go Back"
+        android:background="@drawable/orange_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />

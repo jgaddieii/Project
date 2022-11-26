@@ -34,8 +34,12 @@ public class TicActivity extends AppCompatActivity {
 
         playerNames = getIntent().getStringArrayExtra("player_names");
 
-        if (playerNames != null) {
-            playerDisplay.setText((playerNames[0] + "'s Turn!"));
+        assert playerNames != null;
+        if (playerNames[0].equals("")){
+
+            playerDisplay.setText("Player 1's Turn");
+        }else{
+            playerDisplay.setText((playerNames[0] + "'s Turn"));
         }
 
         ticBoard.setUpGame(playAgainBtn, homeBtn, playerDisplay, playerNames);

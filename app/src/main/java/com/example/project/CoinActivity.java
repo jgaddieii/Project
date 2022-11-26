@@ -1,6 +1,7 @@
 package com.example.project;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
@@ -18,6 +19,7 @@ public class CoinActivity extends AppCompatActivity {
     public static final Random RANDOM = new Random();
     private ImageView coin;
     private Button btn;
+    private Button homeBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +65,11 @@ public class CoinActivity extends AppCompatActivity {
         });
 
         coin.startAnimation(fadeOut);
+    }
+
+    public void homeButtonClicked(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 }

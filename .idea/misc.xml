@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.125" />
-        <entry key="app/src/main/res/layout/activity_coin.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/orange_button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/start_button.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_brick_intro.xml" value="0.15579710144927536" />
+        <entry key="app/src/main/res/layout/activity_coin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_coin_intro.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/activity_flip_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1671195652173913" />
@@ -13,7 +16,7 @@
         <entry key="app/src/main/res/layout/activity_snake_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_tic.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/activity_tic_intro.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_tic_player_setup.xml" value="0.2520833333333333" />
+        <entry key="app/src/main/res/layout/activity_tic_player_setup.xml" value="0.1884023030598958" />
       </map>
     </option>
   </component>

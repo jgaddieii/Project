@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Selection">
+    tools:context=".Selection"
+    android:background="#FBE1B4">
 
     <TextView
         android:id="@+id/textView5"
@@ -15,57 +16,68 @@
         android:layout_marginEnd="39dp"
         android:text="Select a Game!"
         android:textAlignment="center"
-        android:textSize="50sp"
+        android:textColor="#EB8304"
+        android:textSize="55sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/go_to_snake"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/orange_button"
         android:text="Snake"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
         android:id="@+id/go_to_brick"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/orange_button"
         android:text="Brick Breaker"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/go_to_snake"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/go_to_tic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:text="Tic Tac Toe"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/go_to_snake" />
 
     <Button
+        android:id="@+id/go_to_tic"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/orange_button"
+        android:text="Tic Tac Toe"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_brick" />
+
+    <Button
         android:id="@+id/go_to_coin"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="77dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/orange_button"
         android:text="Coin Flip"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/go_to_tic"
-        app:layout_constraintTop_toBottomOf="@+id/go_to_brick" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_to_tic" />
 </androidx.constraintlayout.widget.ConstraintLayout>
