@@ -58,7 +58,7 @@ public class FlappyBush_GameOver extends AppCompatActivity {
         startActivity(intent);
     }
     public void homeButtonClicked(View view){
-        Intent intent = new Intent(this, Selection.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }

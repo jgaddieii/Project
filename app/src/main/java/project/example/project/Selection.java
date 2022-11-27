@@ -43,8 +43,8 @@ public class Selection extends AppCompatActivity {
             }
         });
 
-        Button brickBtn = (Button) findViewById(R.id.go_to_brick);
-        brickBtn.setOnClickListener(new View.OnClickListener() {
+        Button flappyBtn = (Button) findViewById(R.id.go_to_flappy);
+        flappyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent flipIntro = new Intent(Selection.this, FlappyIntro.class);

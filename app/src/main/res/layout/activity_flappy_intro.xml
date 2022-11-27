@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:onClick="backButtonClicked"
-        android:text="Flappy Bird"
+        android:text="Flappy Bush"
         android:textColor="#EB8304"
         android:textSize="55sp"
         android:textStyle="bold"
