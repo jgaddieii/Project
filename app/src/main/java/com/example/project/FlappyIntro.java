@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class BrickIntro extends AppCompatActivity {
+public class FlappyIntro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_brick_intro);
+        setContentView(R.layout.activity_flappy_intro);
     }
 
     public void backButtonClicked(View view){

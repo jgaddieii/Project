@@ -45,7 +45,7 @@ public class Selection extends AppCompatActivity {
         brickBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent flipIntro = new Intent(Selection.this, BrickIntro.class);
+                Intent flipIntro = new Intent(Selection.this, FlappyIntro.class);
                 startActivity(flipIntro);
             }
         });

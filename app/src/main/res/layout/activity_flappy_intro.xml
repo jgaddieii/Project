@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    tools:context=".BrickIntro">
+    android:layout_height="match_parent"
+    tools:context=".FlappyIntro"
+    android:background="#FBE1B4">
 
     <TextView
         android:id="@+id/textView2"
@@ -14,8 +15,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:onClick="backButtonClicked"
-        android:text="Brick Break"
-        android:textSize="70sp"
+        android:text="Flappy Bird"
+        android:textColor="#EB8304"
+        android:textSize="55sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,6 +44,7 @@
         android:layout_marginTop="217dp"
         android:layout_marginEnd="161dp"
         android:onClick="playButtonClicked"
+        android:background="@drawable/orange_button"
         android:text="Play"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +58,7 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="156dp"
         android:onClick="backButtonClicked"
+        android:background="@drawable/orange_button"
         android:text="Go Back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

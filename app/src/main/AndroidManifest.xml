@@ -16,7 +16,7 @@
             android:name=".CoinActivity"
             android:exported="false" />
         <activity
-            android:name=".BrickIntro"
+            android:name=".FlappyIntro"
             android:exported="false" />
         <activity
             android:name=".FlipIntro"
