@@ -1,4 +1,4 @@
-package com.example.project;
+package project.example.project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.project.R;
 
 public class TicActivity extends AppCompatActivity {
 

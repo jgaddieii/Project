@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FlappyIntro"
+    tools:context="project.example.project.FlappyIntro"
     android:background="#FBE1B4">
 
     <TextView
@@ -43,8 +43,8 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="217dp"
         android:layout_marginEnd="161dp"
-        android:onClick="playButtonClicked"
         android:background="@drawable/orange_button"
+        android:onClick="startGame"
         android:text="Play"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,4 +1,4 @@
-package com.example.project;
+package project.example.project;
 
 
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.project.R;
 
 import java.util.Random;
 

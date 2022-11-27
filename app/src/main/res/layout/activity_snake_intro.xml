@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="backButtonClicked"
-    tools:context=".SnakeIntro"
+    tools:context="project.example.project.SnakeIntro"
     android:background="#FBE1B4">
 
     <TextView

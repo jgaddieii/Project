@@ -1,11 +1,9 @@
-package com.example.project;
+package project.example.project;
 
-import android.content.Intent;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.Display;
 import android.app.Activity;
-import android.view.View;
 
 
 public class SnakeActivity extends Activity {

@@ -1,10 +1,12 @@
-package com.example.project;
+package project.example.project;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.project.R;
 
 public class TicIntro extends AppCompatActivity {
 

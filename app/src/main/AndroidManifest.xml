@@ -13,31 +13,31 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
-            android:name=".CoinActivity"
+            android:name="project.example.project.CoinActivity"
             android:exported="false" />
         <activity
-            android:name=".FlappyIntro"
+            android:name="project.example.project.FlappyIntro"
             android:exported="false" />
         <activity
-            android:name=".FlipIntro"
+            android:name="project.example.project.FlipIntro"
             android:exported="false" />
         <activity
-            android:name=".SnakeIntro"
+            android:name="project.example.project.SnakeIntro"
             android:exported="false" />
         <activity
-            android:name=".SnakeActivity"
+            android:name="project.example.project.SnakeActivity"
             android:exported="false" />
         <activity
-            android:name=".TicIntro"
+            android:name="project.example.project.TicIntro"
             android:exported="false" />
         <activity
-            android:name=".TicActivity"
+            android:name="project.example.project.TicActivity"
             android:exported="false" />
         <activity
-            android:name=".TicPlayerSetup"
+            android:name="project.example.project.TicPlayerSetup"
             android:exported="false" />
         <activity
-            android:name=".Selection"
+            android:name="project.example.project.Selection"
             android:exported="false"
             android:label="Select Your Game">
             <meta-data
@@ -45,7 +45,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="project.example.project.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,6 +56,14 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+        <activity
+            android:name="project.example.project.FlappyBush_GameOver"
+            android:exported="false" />
+        <activity
+            android:name="project.example.project.FlappyBush_GameActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

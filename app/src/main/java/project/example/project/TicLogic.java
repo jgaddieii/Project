@@ -1,4 +1,4 @@
-package com.example.project;
+package project.example.project;
 
 import android.view.View;
 import android.widget.Button;

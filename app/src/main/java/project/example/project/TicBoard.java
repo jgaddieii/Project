@@ -1,4 +1,4 @@
-package com.example.project;
+package project.example.project;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+
+import com.example.project.R;
 
 public class TicBoard extends View {
 
