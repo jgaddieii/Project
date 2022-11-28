@@ -11,7 +11,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 
 
-public class SnakeEngine extends SurfaceView implements Runnable {
+public class CobraEngine extends SurfaceView implements Runnable {
 
     private Thread thread = null;
 
@@ -53,7 +53,7 @@ public class SnakeEngine extends SurfaceView implements Runnable {
 
     private Paint paint;
 
-    public SnakeEngine(Context context, Point size) {
+    public CobraEngine(Context context, Point size) {
         super(context);
 
         context = context;
@@ -171,8 +171,8 @@ public class SnakeEngine extends SurfaceView implements Runnable {
         // Get a lock on the canvas
         if (surfaceHolder.getSurface().isValid()) {
             canvas = surfaceHolder.lockCanvas();
-            canvas.drawColor(Color.argb(255, 26, 128, 182));
-            paint.setColor(Color.argb(255,255,255,255));
+            canvas.drawColor(Color.argb(255, 251, 225, 180));
+            paint.setColor(Color.argb(255,255,85,0));
             paint.setTextSize(90);
             canvas.drawText("Score: " + score, 10, 70, paint);
             for (int i = 0; i < snakeLength; i++) {
@@ -182,7 +182,7 @@ public class SnakeEngine extends SurfaceView implements Runnable {
                         (snakeYs[i] * blockSize) + blockSize,
                         paint);
             }
-            paint.setColor(Color.argb(255, 255, 0, 0));
+            paint.setColor(Color.argb(255, 28, 0, 207));
             canvas.drawRect(bobX * blockSize,
                     (bobY * blockSize),
                     (bobX * blockSize) + blockSize,

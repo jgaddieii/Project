@@ -8,16 +8,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.R;
 
-public class SnakeIntro extends AppCompatActivity {
+public class CobraIntro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_snake_intro);
+        setContentView(R.layout.activity_cobra_intro);
     }
 
     public void playButtonClicked(View view){
-        Intent intent = new Intent(this, SnakeActivity.class);
+        Intent intent = new Intent(this, CobraActivity.class);
         startActivity(intent);
     }
 

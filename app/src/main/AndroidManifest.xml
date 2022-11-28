@@ -22,10 +22,10 @@
             android:name="project.example.project.FlipIntro"
             android:exported="false" />
         <activity
-            android:name="project.example.project.SnakeIntro"
+            android:name="project.example.project.CobraIntro"
             android:exported="false" />
         <activity
-            android:name="project.example.project.SnakeActivity"
+            android:name="project.example.project.CobraActivity"
             android:exported="false" />
         <activity
             android:name="project.example.project.TicIntro"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="backButtonClicked"
-    tools:context="project.example.project.SnakeIntro"
+    tools:context="project.example.project.CobraIntro"
     android:background="#FBE1B4">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_marginStart="110dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="110dp"
-        android:text="Snake"
+        android:text="Cobra"
         android:textColor="#EB8304"
         android:textSize="55sp"
         android:textStyle="bold"
@@ -31,7 +31,9 @@
         android:layout_marginTop="46dp"
         android:layout_marginEnd="147dp"
         android:text="How To Play:"
-        android:textSize="20sp"
+        android:textColor="#EB8304"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -41,12 +43,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="217dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="161dp"
-        android:onClick="playButtonClicked"
         android:background="@drawable/orange_button"
+        android:onClick="playButtonClicked"
         android:text="Play"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -69,11 +72,14 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="161dp"
         android:gravity="center_horizontal"
-        android:text="*Instructions*"
+        android:text="To play, tap the screen to make the Cobra move in one of four directions, but be warned this Cobra has a kooky sense of direction going down! Grab the blue water droplets to increase your score, but be careful running into walls or yourself! "
+        android:textColor="#8D6E63"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

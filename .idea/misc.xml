@@ -5,18 +5,19 @@
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/orange_button.xml" value="0.1805" />
+        <entry key="app/src/main/res/layout/activity_cobra_intro.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_coin.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_coin_intro.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/activity_flappy_bush_game_over.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/activity_flappy_intro.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_flip_intro.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_flip_intro.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_game_over.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/activity_matching_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_selection.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_snake_intro.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_tic.xml" value="0.1671195652173913" />
-        <entry key="app/src/main/res/layout/activity_tic_intro.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_tic_intro.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_tic_player_setup.xml" value="0.2520833333333333" />
       </map>
     </option>

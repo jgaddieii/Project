@@ -16,12 +16,12 @@ public class Selection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selection);
 
-        Button snakeBtn = (Button) findViewById(R.id.go_to_snake);
-        snakeBtn.setOnClickListener(new View.OnClickListener() {
+        Button cobraBtn = (Button) findViewById(R.id.go_to_cobra);
+        cobraBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent snakeIntro = new Intent(Selection.this, SnakeIntro.class);
-                startActivity(snakeIntro);
+                Intent cobraIntro = new Intent(Selection.this, CobraIntro.class);
+                startActivity(cobraIntro);
             }
         });
 
